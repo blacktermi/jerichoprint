@@ -1,54 +1,79 @@
+Parfait — j’ai gardé exactement le même rendu plein écran (iframe) que ta version Tribal, et j’ai simplement ajouté les optimisations SEO invisibles (title/description propres, canonical + hreflang, Open Graph/Twitter, JSON-LD Organization + Product). Tu peux coller tel quel.
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MPQHR96CC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-1MPQHR96CC');
-    </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Tableaux sur Toile Canvas - Commandez en Quelques Clics | Tribal Print</title>
-    <meta name="description" content="Commandez votre tableau sur toile canvas personnalisé avec Tribal Print. Qualité premium, finitions élégantes et livraison rapide !">
-    <meta name="keywords" content="tableau canvas, impression sur toile, Tribal Print, décoration murale, toile imprimée">
-    <meta name="author" content="Tribal Print">
-    <meta name="robots" content="index, follow">
+  <title>Tableaux sur Toile Canvas – Commandez en quelques clics | Jericho Print</title>
+  <meta name="description" content="Commandez vos tableaux sur toile canvas personnalisés (A4 à A0). Impression premium, finitions élégantes et livraison rapide à Abidjan avec Jericho Print." />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://jerichoprint.ci/canvas.html" />
+  <link rel="alternate" href="https://jerichoprint.ci/canvas.html" hreflang="fr-ci" />
+  <link rel="alternate" href="https://jerichoprint.ci/canvas.html" hreflang="x-default" />
 
-    <!-- Open Graph pour un meilleur affichage sur les réseaux sociaux -->
-    <meta property="og:title" content="Tableaux sur Toile Canvas - Commandez Facilement | Tribal Print">
-    <meta property="og:description" content="Sublimez votre décoration avec des tableaux sur toile canvas de haute qualité. Impression premium et livraison rapide !">
-    <meta property="og:image" content="https://tribalprint.ci/img/canvas-cover.jpg">
-    <meta property="og:url" content="https://tribalprint.ci/canvas.html">
-    <meta property="og:type" content="website">
-    
-    <script async src="https://tally.so/widgets/embed.js"></script>
-    <style>
-        html { margin: 0; height: 100%; overflow: hidden; }
-        iframe { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 0; }
-    </style>
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1072837948248799');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1072837948248799&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <!-- Open Graph / Social -->
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jericho Print" />
+  <meta property="og:title" content="Tableaux sur Toile Canvas – Commandez facilement | Jericho Print" />
+  <meta property="og:description" content="Sublimez votre déco avec nos toiles canvas. Impression premium, formats A4 à A0, livraison rapide à Abidjan." />
+  <meta property="og:url" content="https://jerichoprint.ci/canvas.html" />
+  <meta property="og:image" content="https://jerichoprint.ci/img/canvas-cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Tally -->
+  <script async src="https://tally.so/widgets/embed.js"></script>
+
+  <!-- Styles (identiques à Tribal : 100% iframe) -->
+  <style>
+    html { margin: 0; height: 100%; overflow: hidden; }
+    iframe { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 0; }
+  </style>
+
+  <!-- Données structurées (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Jericho Print",
+    "url":"https://jerichoprint.ci",
+    "logo":"https://jerichoprint.ci/assets/logo-jericho.png",
+    "sameAs":[
+      "https://www.instagram.com/_jericho.print/",
+      "https://www.facebook.com/jerichoprint?locale=fr_FR"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Product",
+    "name":"Tableaux sur Toile Canvas (A4–A0)",
+    "brand":{"@type":"Brand","name":"Jericho Print"},
+    "description":"Tableaux sur toile canvas – impression HD, finitions élégantes, livraison rapide à Abidjan.",
+    "image":["https://jerichoprint.ci/img/canvas-cover.jpg"],
+    "category":"Home & Decor > Wall Art",
+    "offers":{
+      "@type":"AggregateOffer",
+      "priceCurrency":"XOF",
+      "lowPrice":"1500",
+      "highPrice":"20000",
+      "offerCount":"6",
+      "availability":"https://schema.org/InStock",
+      "url":"https://jerichoprint.ci/canvas.html"
+    }
+  }
+  </script>
 </head>
 <body>
-    <iframe data-tally-src="https://tally.so/r/wLaBLp" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Commande de Tableaux sur Toile Canvas"></iframe>
+  <iframe
+    data-tally-src="https://tally.so/r/n9bMNG"
+    width="100%" height="100%"
+    frameborder="0" marginheight="0" marginwidth="0"
+    title="COMMANDEZ EN QUELQUES CLICS VOS CANVAS – Jericho Print">
+  </iframe>
 </body>
 </html>
+
